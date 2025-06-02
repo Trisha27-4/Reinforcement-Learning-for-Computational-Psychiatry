@@ -33,21 +33,6 @@ Q_C(t+1) = Q_C(t) + \alpha \cdot (R(t) - Q_C(t))
 Q_C(t+1) = Q_C(t) + \alpha \cdot \kappa_C(t) \cdot \delta(t)
 \]
 
-## 📁 Project Structure
-
-```
-computational-psychiatry-rl/
-├── data/                     # Input data (e.g., pcl5_responses.csv)
-├── notebooks/
-│   └── analysis.ipynb        # Main exploratory notebook
-├── src/
-│   ├── models.py             # Q-learning and associability models
-│   ├── utils.py              # Data loading, fitting, evaluation
-│   └── visualize.py          # Plotting functions
-├── results/                  # Output visualizations
-├── README.md
-└── requirements.txt
-```
 
 ## 📈 Results Summary
 
